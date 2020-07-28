@@ -231,8 +231,8 @@
       "status": "Status"
     },
     "state": {
-      "accepted": "Accepted",
-      "rejected": "Rejected",
+      "accepted": "Restore",
+      "rejected": "Discard",
       "completed": "Completed",
       "cancelled": "Cancelled",
       "set": "Set status:",

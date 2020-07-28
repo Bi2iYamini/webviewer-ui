@@ -124,30 +124,6 @@ const NoteState = ({ annotation, isSelected }) => {
                 <Icon glyph="icon-annotation-status-rejected" />
                 {t('option.state.rejected')}
               </div>
-              <div
-                data-element="notePopupStateCancelled"
-                className="option"
-                onClick={() => handleStateUpdate('Cancelled')}
-              >
-                <Icon glyph="icon-annotation-status-cancelled" />
-                {t('option.state.cancelled')}
-              </div>
-              <div
-                data-element="notePopupStateCompleted"
-                className="option"
-                onClick={() => handleStateUpdate('Completed')}
-              >
-                <Icon glyph="icon-annotation-status-completed" />
-                {t('option.state.completed')}
-              </div>
-              <div
-                data-element="notePopupStateNone"
-                className="option"
-                onClick={() => handleStateUpdate('None')}
-              >
-                <Icon glyph="icon-annotation-status-none" />
-                {t('option.state.none')}
-              </div>
             </div>
           )}
         </div>
